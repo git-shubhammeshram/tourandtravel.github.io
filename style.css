@@ -1,0 +1,82 @@
+.navbar{
+    background-color: #BD83B8;
+    
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #BD83B8;; /* Adjust the background color as needed */
+    z-index: 1000; /* Ensure it's above other elements on the page */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.nav-item .nav-link{
+    color: white;
+}
+
+.navbar-nav li a {
+    color: #333;
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+
+  .navbar-nav li a:hover {
+    color: black;
+    font-weight: bold;
+    
+  }
+
+  .navbar-text a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .jumbotron{
+    background-color: #BD83B8;
+    display: flex;
+    padding: 2rem 4rem;
+    flex-direction: row;
+  }
+
+  .imgdata img{
+    width: 80%;
+  }
+
+   #about{
+    font-family: "Josefin Sans", sans-serif;
+   }
+   #brandname{
+    color: #BD83B8;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  h2, p{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .card-text ,.card-title{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 250px;
+    background-color: #BD83B8;
+  }
+
+  .footer ul li{
+    text-align: center;
+    list-style-type: none;
+    
+  }
+
